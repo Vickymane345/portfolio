@@ -1,0 +1,348 @@
+body {
+    background-color: antiquewhite;
+}
+h1, h3, h5, h2, .navbar-brand{
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+}
+
+p, .nav-item, li{
+    font-family: 'Roboto Serif', serif;
+}
+
+
+
+.nav-item {
+    padding-right: 2rem;
+}
+.navbar{
+    background-color: burlywood;
+    
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}#Home .gly{
+    color: bisque;
+}
+#Home .gly:hover{
+    color: burlywood;
+}
+#Home i {
+    color: burlywood;
+}
+#Home img {
+    width: 50%;
+}
+
+#About img {
+    width: 50%;
+}
+
+.rig {
+    width: 50%;
+}
+
+#blog,
+#bmf {
+    display: none;
+}
+
+#wor {
+    display: none;
+}
+
+#Home .btn {
+    background-color: burlywood;
+}
+
+#Home .btn:hover {
+    
+    background-color: bisque;
+
+}
+
+#About .btn {
+    background-color: burlywood;
+}
+
+#About .btn:hover {
+    background-color: bisque;
+
+}
+
+#services .btn {
+    background-color: burlywood;
+}
+
+#services .btn:hover {
+    
+    background-color: bisque;
+
+}
+
+#services .card {
+    width: 50%;
+}
+
+#portfolio img {
+    width: 100%;
+}
+
+#carouselExample {
+    width: 65%;
+    background-color: antiquewhite;
+}
+
+#carouselExample:hover {
+    background-color: bisque;
+    box-shadow: 5px 3px grey;
+    border: 4px solid bisque;
+}
+
+#portfolio .btn {
+    background-color: burlywood;
+}
+
+#portfolio .btn:hover {
+    
+    background-color: bisque;
+
+}
+
+#project .container {
+    width: 60%;
+    border-radius: 2rem;
+}
+
+#project .btn {
+    background-color: bisque;
+}
+
+#project .btn:hover {
+    background-color: burlywood;
+}
+
+#project img {
+    width: 100%;
+}
+
+#project h3,
+p,
+button {
+    padding-top: 2rem;
+}
+
+#contact .container {
+    width: 60%;
+}
+
+#contact input,
+textarea {
+    background-color: burlywood;
+    color: black;
+    width: 100%;
+}
+
+#contact .btn {
+    background-color: burlywood;
+}
+
+#contact .btn:hover {
+    background-color: bisque;
+}
+#foot .container{
+    width: 55%;
+}
+#foot .logo{
+    color: antiquewhite;
+}
+#foot .logo:hover{
+    color:navajowhite
+}
+
+@media (max-width:820px) {
+    #Home .wiz {
+        text-align: start;
+    }
+
+    #Home img {
+        width: 100%;
+        display: inline-block;
+    }
+
+    #Home .great {
+        text-align: center;
+    }
+
+    #About img {
+        width: 100%;
+        display: inline-block;
+    }
+
+    #About .wife {
+        text-align: center;
+    }
+
+    #About .btn {
+        text-align: center;
+    }
+
+    #About .sabi {
+        margin-top: 3rem;
+    }
+
+    #About .hello {
+        text-align: center;
+    }
+
+    #About .hey {
+        text-align: center;
+    }
+
+    #skills .rig {
+        width: 100%;
+    }
+
+    #services .card {
+        width: 100%;
+
+    }
+
+
+    #carouselExample {
+        width: 100%;
+        background-color: antiquewhite;
+    }
+
+    #project .container {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #project h3,
+    p,
+    button {
+
+        padding-top: 0;
+    }
+
+    #contact .container {
+        width: 100%;
+    }
+
+    #contact button {
+        margin-top: 2rem;
+    }
+
+    #contact input,
+    textarea {
+        margin-top: 1rem;
+    }
+    #foot .container{
+    width: 100%;
+}
+
+
+}
+
+@media (max-width:480px) {
+    #services .nice {
+        padding-top: 2rem;
+    }
+    
+
+}
+
+@media (max-width:540px) {
+    #services .nice {
+        padding-top: 2rem;
+    }
+
+}
+
+
+@media (max-width:1024px) {
+    #Home .wiz {
+        text-align: start;
+    }
+
+    #Home img {
+        width: 100%;
+        display: inline-block;
+    }
+
+    #Home .great {
+        text-align: center;
+    }
+
+    #About img {
+        width: 100%;
+        display: inline-block;
+    }
+
+
+
+    #About .wife {
+        text-align: start;
+    }
+
+    #About .sabi {
+        margin-top: 3rem;
+    }
+
+    #About .hello {
+        text-align: start;
+    }
+
+
+
+    #skills .rig {
+        width: 100%;
+    }
+
+    #services .card {
+        width: 100%;
+
+    }
+
+    #carouselExample {
+        width: 100%;
+        background-color: antiquewhite;
+    }
+
+    #project .container {
+        width: 100%;
+
+    }
+
+    #services .card {
+        width: 100%;
+
+    }
+
+    #contact .container {
+        width: 100%;
+    }
+
+    #contact button {
+        margin-top: 2rem;
+    }
+
+    #contact input,
+    textarea {
+        margin-top: 1rem;
+    }
+
+    #project h3,
+    p,
+    button {
+        padding-top: 0;
+    }
+        #foot .container{
+    width: 100%;
+}
+
+}
