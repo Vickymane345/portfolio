@@ -40,7 +40,8 @@ body::before {
     display: block;
     content: '';
     height: 60px;
-}#Home .gly{
+}
+#Home .gly{
     color: bisque;
 }
 #Home .gly:hover{
