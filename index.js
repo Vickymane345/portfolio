@@ -43,19 +43,34 @@ education.addEventListener("click", function(){
 
 
 // form
-function sendEmail(){
-    Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "udechukwu1406@student.babcock.edu.ng",
-    Password : "8E423AE0700BFC6E8548501B581BC52CED0A",
-    From : 'udechukwu1406@student.babcock.edu.ng',
-    To : document.getElementById("email").value,
-    Subject : "form",
-    Body : "Name: " + document.getElementById("name").value
-    + "<br> Email: " + document.getElementById("email").value
-    + "<br> Message: " + document.getElementById("message").value
-}).then(
-  message => alert(message)
-);
-}
+// function sendEmail(){
+//     Email.send({
+//     Host : "smtp.elasticemail.com",
+//     Username : "udechukwu1406@student.babcock.edu.ng",
+//     Password : "8E423AE0700BFC6E8548501B581BC52CED0A",
+//     From : 'udechukwu1406@student.babcock.edu.ng',
+//     To : document.getElementById("email").value,
+//     Subject : "form",
+//     Body : "Name: " + document.getElementById("name").value
+//     + "<br> Email: " + document.getElementById("email").value
+//     + "<br> Message: " + document.getElementById("message").value
+// }).then(
+//   message => alert(message)
+// );
+// }
+const submit = document.getElementsByClassName("form-contact")[0];
+submit.addEventListener('submit',(e)=>{
+     e.preventDefault();
+     console.log("clicked");
+     
+     Email.send({
+          SecureToken : " 9df8d09a-9a47-46a0-916f-e10ef6777657",
+          To : 'victorchikwado122@gmail.com',
+          From : "victorchikwado122@gmail.com"
+          Subject : "This is the subject",
+          Body : "And this is the body"
+     }).then(
+          message => alert(message);
+     );
 
+});
