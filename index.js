@@ -48,7 +48,7 @@ function sendEmail(){
     Host : "smtp.elasticemail.com",
     Username : "udechukwu1406@student.babcock.edu.ng",
     Password : "8E423AE0700BFC6E8548501B581BC52CED0A",
-    From : 'victorchikwado122@gmail.com',
+    From : 'udechukwu1406@student.babcock.edu.ng',
     To : document.getElementById("email").value,
     Subject : "form",
     Body : "Name: " + document.getElementById("name").value
